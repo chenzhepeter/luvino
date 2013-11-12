@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend
+  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    line-height: 1;
+}
+ol, ul ,li {
+    list-style: none;
+}
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+iframe {
+    display: block;
+}
+
+#login_tb input {
+    padding-top:0;
+    padding-bottom:0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body {
+    font: 12px/1.5 Arial,sans-serif;
+}
+
+
+
+
+
+
+
+I {
+	FONT-STYLE: normal; COLOR: #9a9a9a; MARGIN-LEFT: 5px; FONT-SIZE: 12px
+}
+a{COLOR: #00e;
+text-decoration:none;
+ } 
+A:link {
+	COLOR: #00e;
+	TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #00e;
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+
+#container{
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	height:800px;
+	
+	
+	}
+	.navi{ 
+	
+		width:950px;
+	height:600px;
+	background:url(images/bg.jpg);}
+#container A:link {
+	TEXT-DECORATION: none
+}
+#container A:visited {
+	TEXT-DECORATION: none
+}
+#container A:hover {
+	TEXT-DECORATION: underline
+}
+.fwmdiv_t{
+	width:950px;
+	height:255px;
+    
+	
+	}
+
+.fwmdiv_q{
+	width:950px;
+	height:140px;
+	background:url(images/i_r7_c1.jpg) no-repeat;
+	
+	}
+.fwmdiv{
+	width:400px;
+	height:140px;
+	float:right;
+
+    
+	
+	}
+
+#fwmxc{ color:#FF0000;}
+
+#usrbar {
+	TEXT-ALIGN: right; background-color:#f6f6f6; width:100%; LINE-HEIGHT: 19px; MARGIN-TOP: 0px; PADDING:0px; HEIGHT: 19px; FONT-SIZE: 12px
+}
+#usrbar A {
+	COLOR: #00c
+}
+#usrbar A:visited {
+	COLOR: #00c
+}
+#header {
+	MARGIN: auto; WIDTH: 984px
+}
+#nav {
+	BACKGROUND-IMAGE: url(images/line.gif); MARGIN: auto; WIDTH: 100%; BACKGROUND-POSITION: -9px 0px; HEIGHT: 30px; OVERFLOW: hidden
+}
+#nav UL {
+	DISPLAY: inline
+}
+#nav UL.nav_main {
+	WIDTH: auto; FLOAT: left; HEIGHT: 100%; MARGIN-LEFT: 10px
+}
+#nav UL.nav_aside {
+	WIDTH: auto; FLOAT: right; MARGIN-RIGHT: 13px
+}
+#nav LI {
+	LINE-HEIGHT: 32px; FLOAT: left; COLOR: #fff; FONT-SIZE: 12px
+}
+#nav UL.nav_main LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 32px; PADDING-LEFT: 11px; PADDING-RIGHT: 7px; BACKGROUND: url(images/line.gif) no-repeat -45px -91px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#nav UL.nav_aside LI {
+	PADDING-LEFT: 15px
+}
+#nav UL LI.new {
+	POSITION: relative
+}
+#nav UL DIV {
+	BACKGROUND: url(images/icon.gif) no-repeat center 4px
+
+}
+#nav UL LI.new DIV.n_new {
+	POSITION: absolute; WIDTH: 22px; BACKGROUND: url(images/bg.gif) no-repeat -33px -71px; HEIGHT: 10px; RIGHT: -10px; TOP: -4px
+}
+#nav A {
+	DISPLAY: block
+}
+#nav A:link {
+	COLOR: #fff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+#nav A:visited {
+	COLOR: #fff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+
+
+.cl{ clear:both;}
+
+
+
+
+
+
+
+.at { 
+              top:0px;
+              left:200px;
+              position: absolute;
+             width: 100px;
+             color:#000;
+           
+         }
+		 @-webkit-keyframes 'wobble' {
+           0% {
+                 background-color: red;
+                -webkit-transform: rotate(0deg);
+            }
+             40% {
+                 background-color: red;
+                 -webkit-transform: rotate(30deg);
+             }
+             70% {
+                 background-color: yellow;
+                 -webkit-transform: rotate(-30deg);
+             }
+             100% {
+                 background-color: red;
+                 -webkit-transform: rotate(0deg);
+             }
+         }
+		 .at:hover {
+    -webkit-animation-name: wobble;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+
+.calendar{ border:solid 1px #bed0de; padding:3px; top:0px; left:20px; width:90%; background:#fff;}
+.calendar_closebt{ width:100%; height:32px; line-height:32px;}
+.calendar_close{ width:10%; height:32px; line-height:32px; text-align:right; float:right;}
+.calendar_bt{ width:90%; height:32px; line-height:32px; text-align:left; float:left;}
+.calendar_nr{ width:100%; height:auto; line-height:22px; text-align:left;}
+
+
+.dangtijs{display:none;POSITION: absolute;border:solid 1px #bed0de; padding:3px; top:-30px; left:-60px; width:300px; background:#fff;}
+
+
+
+ .contentbox
+{
+	display:none;position:absolute; top:88px; left:20px; width:90%; z-index:10001;
+}
+
+

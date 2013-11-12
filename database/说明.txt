@@ -1,0 +1,1 @@
+新建mysql数据库 导入fwm.sql   修改config.php里面的数据库配置 即可使用
